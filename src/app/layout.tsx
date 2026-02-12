@@ -33,6 +33,11 @@ export default function RootLayout({
   return (
     <html lang="es-CL" className="scroll-smooth">
       <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8910568649783577"
+          crossOrigin="anonymous"
+        />
         <JsonLdFaq />
       </head>
       <body
