@@ -2,26 +2,35 @@
 
 import { useState, useMemo } from "react";
 import { MapPin, Phone, Clock, ExternalLink, Search, Building2, DollarSign } from "lucide-react";
-import { REGIONES_PRT, PLANTAS_PRT, MTT_URL } from "@/data/plantasRevisionTecnica";
+import { REGIONES_PRT, PLANTAS_PRT, MTT_URL, type PlantaRevisionTecnica } from "@/data/plantasRevisionTecnica";
 import datosPRT from "@/data/plantasPRT.json";
 
 const PRT_URL = "https://www.prt.cl";
+
+type PlantaPRTJson = {
+  id: string;
+  region: string;
+  comuna: string;
+  concesionaria: string;
+  direccion: string;
+  telefono: string | null;
+  horario: string;
+  tarifas: Record<string, string> | null;
+};
 
 type DatosPRT = {
   fuente: string;
   regiones: string[];
   comunasByRegion: Record<string, string[]>;
-  plantas: Array<{
-    id: string;
-    region: string;
-    comuna: string;
-    concesionaria: string;
-    direccion: string;
-    telefono: string | null;
-    horario: string;
-    tarifas: Record<string, string> | null;
-  }>;
+  plantas: PlantaPRTJson[];
 };
+
+/** Nombre a mostrar: concesionaria (JSON) o nombre (fallback). */
+function nombrePlanta(planta: PlantaPRTJson | PlantaRevisionTecnica): string {
+  if ("concesionaria" in planta && planta.concesionaria) return planta.concesionaria;
+  if ("nombre" in planta && planta.nombre) return planta.nombre;
+  return "Planta PRT";
+}
 
 const datosOficiales = datosPRT as DatosPRT;
 const usaDatosOficiales = datosOficiales.plantas.length > 0;
@@ -183,10 +192,8 @@ export default function PlantasRevisionTecnica() {
         ) : (
           <ul className="space-y-4">
             {plantasFiltradas.map((planta) => {
-              const nombreDisplay = usaDatosOficiales
-                ? ("concesionaria" in planta ? planta.concesionaria : (planta as { nombre?: string }).nombre) || "Planta PRT"
-                : planta.nombre;
-              const tarifasObj = usaDatosOficiales && "tarifas" in planta ? planta.tarifas : null;
+              const nombreDisplay = nombrePlanta(planta);
+              const tarifasObj = usaDatosOficiales && "tarifas" in planta ? (planta as PlantaPRTJson).tarifas : null;
               return (
                 <li key={planta.id}>
                   <article className="glass-card p-4 sm:p-5 transition-shadow duration-300 hover:shadow-glass-hover">
