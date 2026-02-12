@@ -1,0 +1,9 @@
+=== HOJAS DEL EXCEL ===
+ENERO 2026
+
+--- Hoja: ENERO 2026 (filas: 198) ---
+Fila 0: ["","","","","","","","","","","","","","","","","","","","","","","","","","","","",""]
+Fila 1: ["","","","","","","","","","","","","","","","","","","","","","","","","","","","",""]
+Fila 2: ["","","","","Listado de Plantas de Revisión Técnica / Enero 2026","","","","","","","","","","","","","","","","","","","","","","","",""]
+Fila 3: ["","","","","","","","","","","","","","","","","","","","","","","","","","","","",""]
+Fila 4: ["","","N°","Códigos\r\nPlantas Revisoras","Regiones","Comunas","Concesiones de Plantas Revisoras","Direcciones de las Plantas Revisoras","Horarios de atención","","Tarifas de servicios","","","Teléfono(s)","","","","","","","","","","","","","","",""]

@@ -1,0 +1,2223 @@
+{
+  "fuente": "prt.cl - Tarifas_y_Horarios_Enero_2026.xlsx",
+  "regiones": [
+    "ANTOFAGASTA",
+    "ARAUCANÍA",
+    "ARICA Y PARINACOTA",
+    "ATACAMA",
+    "AYSEN",
+    "BÍO BIO",
+    "COQUIMBO",
+    "LOS LAGOS",
+    "LOS RÍOS",
+    "MAGALLANES",
+    "MAULE",
+    "METROPOLITANA",
+    "ÑUBLE",
+    "O´HIGGINS",
+    "TARAPACÁ",
+    "VALPARAÍSO"
+  ],
+  "comunasByRegion": {
+    "ANTOFAGASTA": [
+      "ANTOFAGASTA",
+      "CALAMA"
+    ],
+    "ARAUCANÍA": [
+      "LAUTARO",
+      "PADRE LAS CASAS",
+      "TEMUCO",
+      "VICTORIA",
+      "VILLARICA"
+    ],
+    "ARICA Y PARINACOTA": [
+      "ARICA"
+    ],
+    "ATACAMA": [
+      "CHAÑARAL",
+      "COPIAPÓ",
+      "VALLENAR"
+    ],
+    "AYSEN": [
+      "AYSEN",
+      "COYHAIQUE"
+    ],
+    "BÍO BIO": [
+      "CAÑETE",
+      "CONCEPCIÓN",
+      "CORONEL",
+      "LOS ÁNGELES",
+      "LOTA",
+      "SAN PEDRO DE LA PAZ",
+      "TALCAHUANO",
+      "TOMÉ",
+      "YUMBEL"
+    ],
+    "COQUIMBO": [
+      "COQUIMBO",
+      "ILLAPEL",
+      "LA SERENA",
+      "OVALLE"
+    ],
+    "LOS LAGOS": [
+      "ANCUD",
+      "CASTRO",
+      "OSORNO",
+      "PUERTO MONTT",
+      "PUERTO VARAS",
+      "QUELLÓN"
+    ],
+    "LOS RÍOS": [
+      "LA UNIÓN",
+      "PANGUIPULLI",
+      "VALDIVIA"
+    ],
+    "MAGALLANES": [
+      "PTO. NATALES",
+      "PUNTA ARENAS"
+    ],
+    "MAULE": [
+      "CAUQUENES",
+      "CONSTITUCIÓN",
+      "CURICÓ",
+      "LICANTEN",
+      "LINARES",
+      "PARRAL",
+      "TALCA"
+    ],
+    "METROPOLITANA": [
+      "CERRILLOS",
+      "COLINA",
+      "HUECHURABA",
+      "INDEPENDENCIA",
+      "LA FLORIDA",
+      "LA PINTANA",
+      "LA REINA",
+      "LAMPA",
+      "MACUL",
+      "MAIPU",
+      "MELIPILLA",
+      "ÑUÑOA",
+      "PAINE",
+      "PEÑALOLEN",
+      "PUDAHUEL",
+      "PUENTE ALTO",
+      "QUILICURA",
+      "QUINTA NORMAL",
+      "RECOLETA",
+      "RENCA",
+      "SAN BERNARDO",
+      "SAN JOAQUIN",
+      "SAN JOAQUÍN",
+      "SAN RAMÓN"
+    ],
+    "ÑUBLE": [
+      "CHILLÁN",
+      "QUIRIHUE",
+      "SAN CARLOS",
+      "YUNGAY"
+    ],
+    "O´HIGGINS": [
+      "LITUECHE",
+      "RANCAGUA",
+      "RENGO",
+      "SAN FERNANDO",
+      "SAN VICENTE",
+      "SANTA CRUZ"
+    ],
+    "TARAPACÁ": [
+      "ALTO HOSPICIO",
+      "IQUIQUE",
+      "POZO ALMONTE"
+    ],
+    "VALPARAÍSO": [
+      "CASABLANCA",
+      "CON CON",
+      "ISLA DE PASCUA",
+      "LA CALERA",
+      "LA LIGUA",
+      "LOS ANDES",
+      "QUILLOTA",
+      "QUILPUE",
+      "QUINTEROS",
+      "SAN ANTONIO",
+      "SAN FELIPE",
+      "VALPARAÍSO",
+      "VIÑA DEL MAR"
+    ]
+  },
+  "plantas": [
+    {
+      "id": "prt-ENERO 2026-6",
+      "region": "ARICA Y PARINACOTA",
+      "comuna": "ARICA",
+      "concesionaria": "MIVAL ARICA SPA.",
+      "direccion": "Avda. Argentina Nº2759",
+      "telefono": "582270837",
+      "horario": "08:30 a 13:00  y 15:00 a 18:30",
+      "tarifas": {
+        "Autos, camionetas": "20050",
+        "Camiones y Buses": "30050",
+        "Taxis": "20050"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-7",
+      "region": "ARICA Y PARINACOTA",
+      "comuna": "ARICA",
+      "concesionaria": "MIVAL ARICA SPA.",
+      "direccion": "Avda. Alejandro Azola N°2405",
+      "telefono": "582262840 - 582260806",
+      "horario": "08:30 a 13:00  y 15:00 a 18:30",
+      "tarifas": {
+        "Autos, camionetas": "20050",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-8",
+      "region": "ARICA Y PARINACOTA",
+      "comuna": "ARICA",
+      "concesionaria": "SYSTECH CHILE LTDA.",
+      "direccion": "Calle 3 Norte Nº130, Parque Industrial Puerta de América",
+      "telefono": "582565163",
+      "horario": "08:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "19800",
+        "Camiones y Buses": "29700",
+        "Taxis": "19800"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-9",
+      "region": "ARICA Y PARINACOTA",
+      "comuna": "ARICA",
+      "concesionaria": "SYSTECH CHILE LTDA.",
+      "direccion": "Avda. Argentina Nº3229",
+      "telefono": "582565163",
+      "horario": "08:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "19800",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-11",
+      "region": "TARAPACÁ",
+      "comuna": "IQUIQUE",
+      "concesionaria": "A. DENHAM Y CÍA. LTDA.",
+      "direccion": "Avda. Circunvalación Nº14, Lote 1",
+      "telefono": "973073055",
+      "horario": "9:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "23000",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-12",
+      "region": "TARAPACÁ",
+      "comuna": "ALTO HOSPICIO",
+      "concesionaria": "A. DENHAM Y CÍA. LTDA.",
+      "direccion": "Santa Rosa de Huara N°4270",
+      "telefono": "954014091",
+      "horario": "9:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "23000",
+        "Camiones y Buses": "25000",
+        "Taxis": "23000"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-13",
+      "region": "TARAPACÁ",
+      "comuna": "IQUIQUE",
+      "concesionaria": "ALGORITMOS Y MEDICIONES AMBIENTALES",
+      "direccion": "Vía 9, Km 10, Bajo Molle",
+      "telefono": "572267080",
+      "horario": "9:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "15150",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-14",
+      "region": "TARAPACÁ",
+      "comuna": "POZO ALMONTE",
+      "concesionaria": "ALGORITMOS Y MEDICIONES AMBIENTALES",
+      "direccion": "Sitio 5, Manzana A, Sector Industrial",
+      "telefono": "572267070",
+      "horario": "9:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "15150",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-15",
+      "region": "TARAPACÁ",
+      "comuna": "IQUIQUE",
+      "concesionaria": "M&M SERV. Y CONSTRUC. LTDA.",
+      "direccion": "Bajo Molles, Vía 4, Sitio 8 Manzana M, Lote A2",
+      "telefono": "934374105 - 934374060",
+      "horario": "9:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "19650",
+        "Camiones y Buses": "29500",
+        "Taxis": "19650"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-16",
+      "region": "TARAPACÁ",
+      "comuna": "ALTO HOSPICIO",
+      "concesionaria": "M&M SERV. Y CONSTRUC. LTDA.",
+      "direccion": "Santa Rosa de Molle 4022",
+      "telefono": "998176320",
+      "horario": "9:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "19650",
+        "Camiones y Buses": "29500",
+        "Taxis": "19650"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-18",
+      "region": "ANTOFAGASTA",
+      "comuna": "ANTOFAGASTA",
+      "concesionaria": "A. DENHAM Y CÍA. LTDA.",
+      "direccion": "Pedro Aguirre Cerda Nº7939",
+      "telefono": "552243349",
+      "horario": "8:30 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "16450",
+        "Camiones y Buses": "24600",
+        "Taxis": "16550"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-19",
+      "region": "ANTOFAGASTA",
+      "comuna": "CALAMA",
+      "concesionaria": "A. DENHAM Y CÍA. LTDA.",
+      "direccion": "Camino Chiu-Chiu S/N , sitio 30",
+      "telefono": "552337143",
+      "horario": "8:30 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "16450",
+        "Camiones y Buses": "24600",
+        "Taxis": "16550"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-20",
+      "region": "ANTOFAGASTA",
+      "comuna": "ANTOFAGASTA",
+      "concesionaria": "ORMAZABAL E HIJOS LTDA.",
+      "direccion": "Avda. Industrial Nº7200",
+      "telefono": "552910000",
+      "horario": "8:30 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "19000",
+        "Camiones y Buses": "28600",
+        "Taxis": "19000"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-21",
+      "region": "ANTOFAGASTA",
+      "comuna": "ANTOFAGASTA",
+      "concesionaria": "REVISIONES TÉCNICAS SAN DÁMASO S.A.",
+      "direccion": "Héroes de la Concepción Nº14250, La Chimba",
+      "telefono": "228821816",
+      "horario": "8:30 a 16:30",
+      "tarifas": {
+        "Autos, camionetas": "18450",
+        "Camiones y Buses": "27600",
+        "Taxis": "18450"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-22",
+      "region": "ANTOFAGASTA",
+      "comuna": "CALAMA",
+      "concesionaria": "REVISIONES TÉCNICAS SAN DÁMASO S.A.",
+      "direccion": "Francisco Martinic S/Nº, Barrio Industrial",
+      "telefono": "228821811",
+      "horario": "8:00 a 19:00 (L-J) y 8:00 a 18:00 (V)",
+      "tarifas": {
+        "Autos, camionetas": "18450",
+        "Camiones y Buses": "27600",
+        "Taxis": "18450"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-24",
+      "region": "ATACAMA",
+      "comuna": "CHAÑARAL",
+      "concesionaria": "REVISIONES TÉCNICAS SAN DÁMASO S.A.",
+      "direccion": "Panamericana Norte Nº561, Barrio Industrial",
+      "telefono": "994092199",
+      "horario": "9:00  a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "14300",
+        "Camiones y Buses": "34200",
+        "Taxis": "14300"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-25",
+      "region": "ATACAMA",
+      "comuna": "COPIAPÓ",
+      "concesionaria": "REVISIONES TÉCNICAS RÍO SAN PEDRO",
+      "direccion": "Ramón Freire N°516",
+      "telefono": "961363630",
+      "horario": "7:30 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "16450",
+        "Camiones y Buses": "24700",
+        "Taxis": "16450"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-26",
+      "region": "ATACAMA",
+      "comuna": "VALLENAR",
+      "concesionaria": "REVISIONES TÉCNICAS OVALLE LTDA.",
+      "direccion": "Llanos de San Antonio , Lote N°3, Km 2,2",
+      "telefono": "56-972123792",
+      "horario": "08:30 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "23200",
+        "Camiones y Buses": "34750",
+        "Taxis": "23200"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-27",
+      "region": "ATACAMA",
+      "comuna": "COPIAPÓ",
+      "concesionaria": "REVISIONES TÉCNICAS OVALLE LTDA.",
+      "direccion": "Avda. Copayapu 3508",
+      "telefono": "981508833",
+      "horario": "08:30 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "19600",
+        "Camiones y Buses": "28200",
+        "Taxis": "19600"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-29",
+      "region": "COQUIMBO",
+      "comuna": "LA SERENA",
+      "concesionaria": "REVISIONES TÉCNICAS OVALLE LTDA.",
+      "direccion": "Avda. Colo Colo Nº4360, La Florida",
+      "telefono": "512564758",
+      "horario": "8:30 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "13100",
+        "Camiones y Buses": "20150",
+        "Taxis": "13750"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-30",
+      "region": "COQUIMBO",
+      "comuna": "OVALLE",
+      "concesionaria": "REVISIONES TÉCNICAS OVALLE LTDA.",
+      "direccion": "Los Industriales Nº265, Parque Industrial Limarí",
+      "telefono": "532448348",
+      "horario": "8:30 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "13100",
+        "Camiones y Buses": "20150",
+        "Taxis": "13750"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-31",
+      "region": "COQUIMBO",
+      "comuna": "COQUIMBO",
+      "concesionaria": "REVISIONES GUAYACÁN LTDA.",
+      "direccion": "Avda. La Cantera Nº1351",
+      "telefono": "512315618",
+      "horario": "8:30 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "13250",
+        "Camiones y Buses": "20450",
+        "Taxis": "13900"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-32",
+      "region": "COQUIMBO",
+      "comuna": "ILLAPEL",
+      "concesionaria": "REVISIONES GUAYACÁN LTDA.",
+      "direccion": "Felipe Ñiguez Nº50",
+      "telefono": "532522836",
+      "horario": "8:30 a 13:00 y 14:00 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "13250",
+        "Camiones y Buses": "20450",
+        "Taxis": "13900"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-33",
+      "region": "COQUIMBO",
+      "comuna": "COQUIMBO",
+      "concesionaria": "ECA CONTROL Y ASESORAMIENTO S.A.",
+      "direccion": "Ruta 5 ,Nº2590, sector El Panul",
+      "telefono": "512666690",
+      "horario": "9:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "16000",
+        "Camiones y Buses": "24000",
+        "Taxis": "16000"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-34",
+      "region": "COQUIMBO",
+      "comuna": "LA SERENA",
+      "concesionaria": "ECA CONTROL Y ASESORAMIENTO S.A.",
+      "direccion": "Camino El Islón Ruta D-30, Fundo El Olivar",
+      "telefono": "512754676",
+      "horario": "9:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "16000",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-36",
+      "region": "VALPARAÍSO",
+      "comuna": "VIÑA DEL MAR",
+      "concesionaria": "A. DENHAM Y CÍA. LTDA.",
+      "direccion": "Camino Internacional Nº2055",
+      "telefono": "940175911",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "14950",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-37",
+      "region": "VALPARAÍSO",
+      "comuna": "SAN ANTONIO",
+      "concesionaria": "APPLUS REVISIONES TÉCNICAS CHILE S.A.",
+      "direccion": "Los Molles Nº387",
+      "telefono": "352330223",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "17300",
+        "Camiones y Buses": "25900",
+        "Taxis": "17300"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-38",
+      "region": "VALPARAÍSO",
+      "comuna": "ISLA DE PASCUA",
+      "concesionaria": "CARLOS EDMONDS P.",
+      "direccion": "Hotumatua S/Nº",
+      "telefono": "322551074",
+      "horario": "9:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "20050",
+        "Camiones y Buses": "44850",
+        "Taxis": "26300"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-39",
+      "region": "VALPARAÍSO",
+      "comuna": "SAN FELIPE",
+      "concesionaria": "CENTROMOTORI LTDA.",
+      "direccion": "Sargento Aldea Nº30",
+      "telefono": "342515887",
+      "horario": "8:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "22700",
+        "Camiones y Buses": "32700",
+        "Taxis": "23700"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-40",
+      "region": "VALPARAÍSO",
+      "comuna": "SAN ANTONIO",
+      "concesionaria": "CHILENA DE REVISIONES TÉCNICAS LTDA.",
+      "direccion": "Los Eucaliptos Nº150",
+      "telefono": "223070883",
+      "horario": "9:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "21950",
+        "Camiones y Buses": "32950",
+        "Taxis": "21950"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-41",
+      "region": "VALPARAÍSO",
+      "comuna": "VALPARAÍSO",
+      "concesionaria": "CHILENA DE REVISIONES TÉCNICAS LTDA.",
+      "direccion": "Tupungato Nº3220",
+      "telefono": "985831713",
+      "horario": "9:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "21950",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-42",
+      "region": "VALPARAÍSO",
+      "comuna": "LA LIGUA",
+      "concesionaria": "CRISTIAN ROMERO Y CIA. LTDA.",
+      "direccion": "Parcela 22 B, Ruta E-35",
+      "telefono": "332714679",
+      "horario": "8:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "12350",
+        "Camiones y Buses": "22400",
+        "Taxis": "14050"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-43",
+      "region": "VALPARAÍSO",
+      "comuna": "VALPARAÍSO",
+      "concesionaria": "MOODY INTERNATIONAL HOLDINGS CHILE LTDA.",
+      "direccion": "Novena 342-A Lote B, Placilla",
+      "telefono": "222010456 - 222011097",
+      "horario": "9:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "21900",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-44",
+      "region": "VALPARAÍSO",
+      "comuna": "LOS ANDES",
+      "concesionaria": "MOODY INTERNATIONAL HOLDINGS CHILE LTDA.",
+      "direccion": "Calle San Rafael  S/Nº, lote A",
+      "telefono": "222011590 - 222011604",
+      "horario": "9:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "21900",
+        "Camiones y Buses": "32850",
+        "Taxis": "21900"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-45",
+      "region": "VALPARAÍSO",
+      "comuna": "VALPARAÍSO",
+      "concesionaria": "REVICENTRO VALPARAÍSO SPA",
+      "direccion": "Décima N°990, Placilla de Peñuelas",
+      "telefono": "322687043",
+      "horario": "8:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "21100",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-46",
+      "region": "VALPARAÍSO",
+      "comuna": "VIÑA DEL MAR",
+      "concesionaria": "REVICENTRO VALPARAÍSO SPA",
+      "direccion": "Calle Limache Nº3677, El Salto",
+      "telefono": "322687043",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "21100",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-47",
+      "region": "VALPARAÍSO",
+      "comuna": "QUINTEROS",
+      "concesionaria": "REVISIONES KING LTDA.",
+      "direccion": "Avda.  El Parque N°1571, lote 51- Sector Loncura",
+      "telefono": "323345556",
+      "horario": "8:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "18550",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-48",
+      "region": "VALPARAÍSO",
+      "comuna": "VALPARAÍSO",
+      "concesionaria": "REVISIONES KING LTDA.",
+      "direccion": "Cerro El Plomo N°3129; Lote 36 .Sector Placilla de Peñuelas",
+      "telefono": "56- 949003221",
+      "horario": "8:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "----",
+        "Camiones y Buses": "27850",
+        "Taxis": "18550"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-49",
+      "region": "VALPARAÍSO",
+      "comuna": "QUILLOTA",
+      "concesionaria": "REVISIONES TÉCNICAS ACONCAGUA SPA",
+      "direccion": "Juan Alberdi N° 1147",
+      "telefono": "33223003-973195883",
+      "horario": "8:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "15500",
+        "Camiones y Buses": "23200",
+        "Taxis": "15500"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-50",
+      "region": "VALPARAÍSO",
+      "comuna": "CON CON",
+      "concesionaria": "REVISIONES TÉCNICAS ACONCAGUA SPA",
+      "direccion": "Avda. El Parque Nº 470",
+      "telefono": "322518658 - 973195883",
+      "horario": "8:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "15500",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-51",
+      "region": "VALPARAÍSO",
+      "comuna": "VALPARAÍSO",
+      "concesionaria": "REVISIONES TÉCNICAS SAN DÁMASO S.A.",
+      "direccion": "Avda. B. O'Higgins Nº380, Placilla",
+      "telefono": "228821834 - 228821835",
+      "horario": "8:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "----",
+        "Camiones y Buses": "25900",
+        "Taxis": "17300"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-52",
+      "region": "VALPARAÍSO",
+      "comuna": "QUILPUE",
+      "concesionaria": "REVISIONES TÉCNICAS SAN DÁMASO S.A.",
+      "direccion": "Avda. del Trabajador  Nº 627",
+      "telefono": "228820295 - 228820296",
+      "horario": "7:00 a 19:30 (l-j) y 7:00 a 18:30 (v)",
+      "tarifas": {
+        "Autos, camionetas": "17300",
+        "Camiones y Buses": "25900",
+        "Taxis": "17300"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-53",
+      "region": "VALPARAÍSO",
+      "comuna": "LA CALERA",
+      "concesionaria": "REVISIONES TÉCNICAS SAN DÁMASO S.A.",
+      "direccion": "Santa Rosa Nº520",
+      "telefono": "228820295 - 228820296",
+      "horario": "8:00 a 20:00 (l-j) y 8:00 a 19:00 (v)",
+      "tarifas": {
+        "Autos, camionetas": "17300",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-54",
+      "region": "VALPARAÍSO",
+      "comuna": "CASABLANCA",
+      "concesionaria": "SYSTECH CHILE LTDA.",
+      "direccion": "Hijuela La Crianza Oriente N° 153",
+      "telefono": "323320650",
+      "horario": "08:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "25400",
+        "Camiones y Buses": "38050",
+        "Taxis": "25400"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-55",
+      "region": "VALPARAÍSO",
+      "comuna": "VIÑA DEL MAR",
+      "concesionaria": "SYSTECH CHILE LTDA.",
+      "direccion": "Calle Limache Nº4165, El Salto",
+      "telefono": "323320952",
+      "horario": "08:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "25400",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-57",
+      "region": "O´HIGGINS",
+      "comuna": "SAN VICENTE",
+      "concesionaria": "SYSTECH CHILE LTDA.",
+      "direccion": "El Algarrobo Nº1721, sector Pueblo de Indios",
+      "telefono": "722605360",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "11600",
+        "Camiones y Buses": "17450",
+        "Taxis": "11800"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-58",
+      "region": "O´HIGGINS",
+      "comuna": "RANCAGUA",
+      "concesionaria": "SYSTECH CHILE LTDA.",
+      "direccion": "Salvador Allende Gossen Nº273",
+      "telefono": "722605490",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "11600",
+        "Camiones y Buses": "17450",
+        "Taxis": "11800"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-59",
+      "region": "O´HIGGINS",
+      "comuna": "SAN FERNANDO",
+      "concesionaria": "INSPECTORATE LTDA.",
+      "direccion": "Sector Camino Termas del Flaco LT 7-2, calle Chacra Palermo s/Nº",
+      "telefono": "722527541",
+      "horario": "9:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "13050",
+        "Camiones y Buses": "19600",
+        "Taxis": "13050"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-60",
+      "region": "O´HIGGINS",
+      "comuna": "RENGO",
+      "concesionaria": "INSPECTORATE LTDA.",
+      "direccion": "Camino Público Rengo – Malloa, Ruta H-60,  Nº57",
+      "telefono": "722575954",
+      "horario": "9:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "13050",
+        "Camiones y Buses": "19600",
+        "Taxis": "13050"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-61",
+      "region": "O´HIGGINS",
+      "comuna": "RANCAGUA",
+      "concesionaria": "ROCCO TIFFOU SPA",
+      "direccion": "Salvador Allende Gossen Nº2581",
+      "telefono": "722836746",
+      "horario": "8:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "11800",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-62",
+      "region": "O´HIGGINS",
+      "comuna": "SANTA CRUZ",
+      "concesionaria": "ROCCO TIFFOU SPA",
+      "direccion": "Pacífico Marín Nº123",
+      "telefono": "722824177",
+      "horario": "8:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "11800",
+        "Camiones y Buses": "17800",
+        "Taxis": "12000"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-63",
+      "region": "O´HIGGINS",
+      "comuna": "RANCAGUA",
+      "concesionaria": "CHILENA DE REVISIONES TÉCNICAS LTDA.",
+      "direccion": "Punta de Sol Nº610",
+      "telefono": "723070854",
+      "horario": "9:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "13100",
+        "Camiones y Buses": "19700",
+        "Taxis": "13300"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-64",
+      "region": "O´HIGGINS",
+      "comuna": "RANCAGUA",
+      "concesionaria": "CHILENA DE REVISIONES TÉCNICAS LTDA.",
+      "direccion": "Manuel Montt Nº1820",
+      "telefono": "723070844",
+      "horario": "9:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "13100",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-65",
+      "region": "O´HIGGINS",
+      "comuna": "LITUECHE",
+      "concesionaria": "CHILENA DE REVISIONES TÉCNICAS LTDA.",
+      "direccion": "Ruta I-80-GT Lote D Los Arrayanes",
+      "telefono": "223070862",
+      "horario": "9:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "13100",
+        "Camiones y Buses": "19700",
+        "Taxis": "13300"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-67",
+      "region": "MAULE",
+      "comuna": "TALCA",
+      "concesionaria": "REVISIONES MAULE LTDA.",
+      "direccion": "Avda. San Miguel Nº4413",
+      "telefono": "977577872",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "12700",
+        "Camiones y Buses": "19550",
+        "Taxis": "13350"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-68",
+      "region": "MAULE",
+      "comuna": "LINARES",
+      "concesionaria": "REVISIONES MAULE LTDA.",
+      "direccion": "Avda. Aníbal León Bustos Nº1165, Lote 2",
+      "telefono": "732219363",
+      "horario": "8:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "12700",
+        "Camiones y Buses": "19550",
+        "Taxis": "13350"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-69",
+      "region": "MAULE",
+      "comuna": "CAUQUENES",
+      "concesionaria": "REVISIONES MAULE LTDA.",
+      "direccion": "Camino a Parral Nº2855",
+      "telefono": "732513839",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "12700",
+        "Camiones y Buses": "19550",
+        "Taxis": "131350"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-70",
+      "region": "MAULE",
+      "comuna": "CURICÓ",
+      "concesionaria": "SYSTECH CHILE LTDA.",
+      "direccion": "Los Vidales 2221, Sector Rauquén",
+      "telefono": "752380401 - 752381620",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "12550",
+        "Camiones y Buses": "19400",
+        "Taxis": "13200"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-71",
+      "region": "MAULE",
+      "comuna": "PARRAL",
+      "concesionaria": "SYSTECH CHILE LTDA.",
+      "direccion": "Calle 2 Sur Nº631 esquina Ignacio Carrera Pinto",
+      "telefono": "732630110 - 732630111",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "12550",
+        "Camiones y Buses": "19400",
+        "Taxis": "13200"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-72",
+      "region": "MAULE",
+      "comuna": "CONSTITUCIÓN",
+      "concesionaria": "SYSTECH CHILE LTDA.",
+      "direccion": "Camino Constitución a Chanco s/Nº; Ruta M-50",
+      "telefono": "712744640",
+      "horario": "9:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "12550",
+        "Camiones y Buses": "19400",
+        "Taxis": "13200"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-73",
+      "region": "MAULE",
+      "comuna": "TALCA",
+      "concesionaria": "CHILENA DE REVISIONES TÉCNICAS LTDA.",
+      "direccion": "21 y 1/2 Oriente Nº3445, Sector Bicentenario",
+      "telefono": "223070878",
+      "horario": "9:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "20400",
+        "Camiones y Buses": "30000",
+        "Taxis": "20400"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-74",
+      "region": "MAULE",
+      "comuna": "LINARES",
+      "concesionaria": "CHILENA DE REVISIONES TÉCNICAS LTDA.",
+      "direccion": "Camino Real P.P San Martín P.C 23, Lote 2",
+      "telefono": "223070876",
+      "horario": "9:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "20400",
+        "Camiones y Buses": "30000",
+        "Taxis": "20400"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-75",
+      "region": "MAULE",
+      "comuna": "LICANTEN",
+      "concesionaria": "CHILENA DE REVISIONES TÉCNICAS LTDA.",
+      "direccion": "Calle Departamental s/Nº",
+      "telefono": "223070800",
+      "horario": "9:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "20400",
+        "Camiones y Buses": "30000",
+        "Taxis": "20400"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-77",
+      "region": "BÍO BIO",
+      "comuna": "LOS ÁNGELES",
+      "concesionaria": "REVISIONES BÍO-BÍO LTDA.",
+      "direccion": "Balmaceda Nº399",
+      "telefono": "432324387",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "12300",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-78",
+      "region": "BÍO BIO",
+      "comuna": "TALCAHUANO",
+      "concesionaria": "REVISIONES BÍO-BÍO LTDA.",
+      "direccion": "Jaime Repullo Nº2280",
+      "telefono": "412599069",
+      "horario": "9:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "12300",
+        "Camiones y Buses": "18450",
+        "Taxis": "12450"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-79",
+      "region": "BÍO BIO",
+      "comuna": "LOTA",
+      "concesionaria": "REVISIONES BÍO-BÍO LTDA.",
+      "direccion": "Ruta 160 Nº580, Sector Cantera",
+      "telefono": "412870996",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "12300",
+        "Camiones y Buses": "18450",
+        "Taxis": "12450"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-80",
+      "region": "BÍO BIO",
+      "comuna": "LOS ÁNGELES",
+      "concesionaria": "SYSTECH CHILE LTDA.",
+      "direccion": "Avda. Las Industrias , Pedro Stark Troncoso N° 12485",
+      "telefono": "+ 56 9 5401 1217",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "29050",
+        "Camiones y Buses": "43600",
+        "Taxis": "29050"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-81",
+      "region": "BÍO BIO",
+      "comuna": "SAN PEDRO DE LA PAZ",
+      "concesionaria": "SYSTECH CHILE LTDA.",
+      "direccion": "Calle Uno Norte N°850",
+      "telefono": "+56 920928539",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "29050",
+        "Camiones y Buses": "43600",
+        "Taxis": "29050"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-82",
+      "region": "BÍO BIO",
+      "comuna": "LOS ÁNGELES",
+      "concesionaria": "ECA CONTROL Y ASESORAMIENTO S.A.",
+      "direccion": "Avda. Las Industrias Pedro Stark Troncoso N°700",
+      "telefono": "432659808",
+      "horario": "9:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "16950",
+        "Camiones y Buses": "25400",
+        "Taxis": "16950"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-83",
+      "region": "BÍO BIO",
+      "comuna": "CONCEPCIÓN",
+      "concesionaria": "PRESTOTEC LTDA.",
+      "direccion": "Autopista a Talcahuano Nº3275",
+      "telefono": "56- 946794430",
+      "horario": "7:15 a 16:00",
+      "tarifas": {
+        "Autos, camionetas": "23350",
+        "Camiones y Buses": "12650",
+        "Taxis": "11650"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-84",
+      "region": "BÍO BIO",
+      "comuna": "CAÑETE",
+      "concesionaria": "PRESTOTEC LTDA.",
+      "direccion": "Camino a Curanilahue  Nº 1980",
+      "telefono": "412612934",
+      "horario": "8:00 a 13:00 y 14:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "23350",
+        "Camiones y Buses": "12650",
+        "Taxis": "11650"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-85",
+      "region": "BÍO BIO",
+      "comuna": "CONCEPCIÓN",
+      "concesionaria": "TÜV RHEINLAND ANDINO S.A.",
+      "direccion": "Avda. General Bonilla Nº2010",
+      "telefono": "223524226",
+      "horario": "8:00 a 20:00",
+      "tarifas": {
+        "Autos, camionetas": "18800",
+        "Camiones y Buses": "28150",
+        "Taxis": "18800"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-86",
+      "region": "BÍO BIO",
+      "comuna": "YUMBEL",
+      "concesionaria": "TÜV RHEINLAND ANDINO S.A.",
+      "direccion": "Calle O'Higgins Nº1850, Camino Concepción",
+      "telefono": "223524226",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "18800",
+        "Camiones y Buses": "28150",
+        "Taxis": "18800"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-87",
+      "region": "BÍO BIO",
+      "comuna": "SAN PEDRO DE LA PAZ",
+      "concesionaria": "TÜV RHEINLAND ANDINO S.A.",
+      "direccion": "Avda. Michaihue N°157",
+      "telefono": "223524226",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "18800",
+        "Camiones y Buses": "28150",
+        "Taxis": "18800"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-88",
+      "region": "BÍO BIO",
+      "comuna": "TOMÉ",
+      "concesionaria": "APPLUS REVISIONES TÉCNICAS CHILE S.A.",
+      "direccion": "Lote D-2, Ruta 150, Camino Tomé Concepción N4828",
+      "telefono": null,
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "23500",
+        "Camiones y Buses": "35200",
+        "Taxis": "23500"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-89",
+      "region": "BÍO BIO",
+      "comuna": "CORONEL",
+      "concesionaria": "DEKRA REVISIÓN TÉCNICA SPA",
+      "direccion": "Avda. Golfo de Arauco N°3646",
+      "telefono": "225778080",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "16050",
+        "Camiones y Buses": "24100",
+        "Taxis": "16050"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-91",
+      "region": "ÑUBLE",
+      "comuna": "CHILLÁN",
+      "concesionaria": "TÜV RHEINLAND ANDINO S.A.",
+      "direccion": "Av. O'Higgins 2774( Chillán 2)",
+      "telefono": "223524226",
+      "horario": "7:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "15450",
+        "Camiones y Buses": "23150",
+        "Taxis": "15450"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-92",
+      "region": "ÑUBLE",
+      "comuna": "YUNGAY",
+      "concesionaria": "TÜV RHEINLAND ANDINO S.A.",
+      "direccion": "O Higgins Poniente (Antes N-97-Q) Yungay- Cholguán, Campanario",
+      "telefono": "223524226",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "15450",
+        "Camiones y Buses": "23150",
+        "Taxis": "15450"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-93",
+      "region": "ÑUBLE",
+      "comuna": "CHILLÁN",
+      "concesionaria": "DEKRA REVISIÓN TÉCNICA SpA",
+      "direccion": "Lote A2, Camino a Huape N°2431",
+      "telefono": "225778002",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "12450",
+        "Camiones y Buses": "18700",
+        "Taxis": "12450"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-94",
+      "region": "ÑUBLE",
+      "comuna": "QUIRIHUE",
+      "concesionaria": "DEKRA REVISIÓN TÉCNICA SpA",
+      "direccion": "Camino a Cobquecura Km. 1,4",
+      "telefono": "9 64910618",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "12450",
+        "Camiones y Buses": "18700",
+        "Taxis": "12450"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-95",
+      "region": "ÑUBLE",
+      "comuna": "SAN CARLOS",
+      "concesionaria": "ECA CONTROL Y ASESORAMIENTO S.A.",
+      "direccion": "Camino San Agustín Nº1300",
+      "telefono": "422556129",
+      "horario": "9:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "16950",
+        "Camiones y Buses": "25400",
+        "Taxis": "16950"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-97",
+      "region": "ARAUCANÍA",
+      "comuna": "TEMUCO",
+      "concesionaria": "APPLUS REVISIONES TÉCNICAS CHILE S.A.",
+      "direccion": "Calle Reyes Católicos Nº01630",
+      "telefono": "452389625",
+      "horario": "8:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "17400",
+        "Camiones y Buses": "26150",
+        "Taxis": "17400"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-98",
+      "region": "ARAUCANÍA",
+      "comuna": "VICTORIA",
+      "concesionaria": "APPLUS REVISIONES TÉCNICAS CHILE S.A.",
+      "direccion": "Camino Victoria-Traiguen S/N Lote A-14",
+      "telefono": "452844517",
+      "horario": "8:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "17400",
+        "Camiones y Buses": "26150",
+        "Taxis": "17400"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-99",
+      "region": "ARAUCANÍA",
+      "comuna": "TEMUCO",
+      "concesionaria": "TÜV RHEINLAND ANDINO S.A.",
+      "direccion": "Rudencindo Ortega Nº02351",
+      "telefono": "223524226",
+      "horario": "8:30 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "11100",
+        "Camiones y Buses": "16650",
+        "Taxis": "11250"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-100",
+      "region": "ARAUCANÍA",
+      "comuna": "VILLARICA",
+      "concesionaria": "TÜV RHEINLAND ANDINO S.A.",
+      "direccion": "Pedro de Valdivia Nº0245",
+      "telefono": "223524226",
+      "horario": "8:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "11100",
+        "Camiones y Buses": "16650",
+        "Taxis": "11250"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-101",
+      "region": "ARAUCANÍA",
+      "comuna": "PADRE LAS CASAS",
+      "concesionaria": "INVERSIONES VEROSUR SPA",
+      "direccion": "Camino Huichahue N°2340, parcela 1",
+      "telefono": "932533026",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "14700",
+        "Camiones y Buses": "22100",
+        "Taxis": "14700"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-102",
+      "region": "ARAUCANÍA",
+      "comuna": "LAUTARO",
+      "concesionaria": "INVERSIONES VEROSUR SPA",
+      "direccion": "Las Industrias , Lote C2",
+      "telefono": "993184349",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "14700",
+        "Camiones y Buses": "22100",
+        "Taxis": "14700"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-104",
+      "region": "LOS RÍOS",
+      "comuna": "VALDIVIA",
+      "concesionaria": "REVISIONES TÉCNICAS OVALLE LTDA.",
+      "direccion": "Sevilla Nº275",
+      "telefono": "632272006 - 632272007",
+      "horario": "8:30 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "16100",
+        "Camiones y Buses": "24650",
+        "Taxis": "16750"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-105",
+      "region": "LOS RÍOS",
+      "comuna": "PANGUIPULLI",
+      "concesionaria": "REVISIONES TÉCNICAS OVALLE LTDA.",
+      "direccion": "Kilómetro 2,5 Ruta 203, Camino a Lanco, Sector Fundo Palguin Hijuela 2",
+      "telefono": "632310044 - 632312522",
+      "horario": "8:30 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "16100",
+        "Camiones y Buses": "24650",
+        "Taxis": "16750"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-106",
+      "region": "LOS RÍOS",
+      "comuna": "VALDIVIA",
+      "concesionaria": "REVISIONES LOS LAGOS LTDA.",
+      "direccion": "Errázuriz Nº2315",
+      "telefono": "632217908",
+      "horario": "8:30 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "12250",
+        "Camiones y Buses": "18850",
+        "Taxis": "12950"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-107",
+      "region": "LOS RÍOS",
+      "comuna": "LA UNIÓN",
+      "concesionaria": "REVISIONES LOS LAGOS LTDA.",
+      "direccion": "Ruta 210, Km 4",
+      "telefono": "642210791",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "12250",
+        "Camiones y Buses": "18850",
+        "Taxis": "12950"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-109",
+      "region": "LOS LAGOS",
+      "comuna": "OSORNO",
+      "concesionaria": "TÜV RHEINLAND ANDINO S.A.",
+      "direccion": "Avda. Alcalde Fuschlocher Nº1380",
+      "telefono": "223524226",
+      "horario": "8:30 a 13:00 y 15:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "20950",
+        "Camiones y Buses": "19300",
+        "Taxis": "14750"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-110",
+      "region": "LOS LAGOS",
+      "comuna": "PUERTO MONTT",
+      "concesionaria": "INSPECTORATE LTDA.",
+      "direccion": "Avda. Gabriela Mistral s/Nº, Sector Alerce",
+      "telefono": "652846249",
+      "horario": "8:00 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "12700",
+        "Camiones y Buses": "19050",
+        "Taxis": "12700"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-111",
+      "region": "LOS LAGOS",
+      "comuna": "ANCUD",
+      "concesionaria": "INSPECTORATE LTDA.",
+      "direccion": "Pupelde S/N°",
+      "telefono": "652867623",
+      "horario": "8:30 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "12700",
+        "Camiones y Buses": "19050",
+        "Taxis": "12700"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-112",
+      "region": "LOS LAGOS",
+      "comuna": "PUERTO VARAS",
+      "concesionaria": "INSPECTORATE LTDA.",
+      "direccion": "Loteo San Juan, Sector  B Línea Vieja, Sector, Parcela 3",
+      "telefono": "652861537",
+      "horario": "8:30 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "12700",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-113",
+      "region": "LOS LAGOS",
+      "comuna": "PUERTO MONTT",
+      "concesionaria": "REVISIONES LOS LAGOS LTDA.",
+      "direccion": "Ruta 5 Sur Nº552, Sector Urbano",
+      "telefono": "652281918",
+      "horario": "8:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "11950",
+        "Camiones y Buses": "18500",
+        "Taxis": "12650"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-114",
+      "region": "LOS LAGOS",
+      "comuna": "OSORNO",
+      "concesionaria": "REVISIONES LOS LAGOS LTDA.",
+      "direccion": "Errázuriz Nº2149",
+      "telefono": "642215860",
+      "horario": "8:30 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "11950",
+        "Camiones y Buses": "18500",
+        "Taxis": "12650"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-115",
+      "region": "LOS LAGOS",
+      "comuna": "CASTRO",
+      "concesionaria": "TÜV RHEINLAND ANDINO S.A.",
+      "direccion": "Galvarino Riveros Nº1712",
+      "telefono": "223524226",
+      "horario": "8:30 a 13:00 y 15:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "26600",
+        "Camiones y Buses": "24350",
+        "Taxis": "18450"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-116",
+      "region": "LOS LAGOS",
+      "comuna": "PUERTO MONTT",
+      "concesionaria": "INVERSIONES VEROSUR SPA",
+      "direccion": "Camino a Lagunitas, Km 4,5; camino Aeropuerto El Tepual",
+      "telefono": "920112775",
+      "horario": "08:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "22800",
+        "Camiones y Buses": "34200",
+        "Taxis": "22800"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-117",
+      "region": "LOS LAGOS",
+      "comuna": "QUELLÓN",
+      "concesionaria": "INVERSIONES VEROSUR SPA",
+      "direccion": "Quellón Viejo ; Lote A-7, ruta W-912",
+      "telefono": "652281918",
+      "horario": "08:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "22800",
+        "Camiones y Buses": "34200",
+        "Taxis": "22800"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-119",
+      "region": "AYSEN",
+      "comuna": "COYHAIQUE",
+      "concesionaria": "SOREDE LTDA.",
+      "direccion": "Camino a Balmaceda Km 2",
+      "telefono": "672250809",
+      "horario": "8:30 a 13:30 y 14:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "18650",
+        "Camiones y Buses": "28500",
+        "Taxis": "19300"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-120",
+      "region": "AYSEN",
+      "comuna": "AYSEN",
+      "concesionaria": "SOREDE LTDA.",
+      "direccion": "Avda. Pangal Nº1077",
+      "telefono": "672330934",
+      "horario": "9:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "18650",
+        "Camiones y Buses": "28500",
+        "Taxis": "19300"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-122",
+      "region": "MAGALLANES",
+      "comuna": "PUNTA ARENAS",
+      "concesionaria": "REVISIONES TÉCNICAS DAVISON LTDA.",
+      "direccion": "Avda. Bulnes Nº04506",
+      "telefono": "612213651-612219147-612232201",
+      "horario": "8:30 a 16:30",
+      "tarifas": {
+        "Autos, camionetas": "23500",
+        "Camiones y Buses": "35000",
+        "Taxis": "23500"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-123",
+      "region": "MAGALLANES",
+      "comuna": "PUNTA ARENAS",
+      "concesionaria": "SERVIDEN Y CIA. LTDA.",
+      "direccion": "Carlos Condell Nº 01186",
+      "telefono": "612241147",
+      "horario": "9:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "14400",
+        "Camiones y Buses": "21700",
+        "Taxis": "14550"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-124",
+      "region": "MAGALLANES",
+      "comuna": "PTO. NATALES",
+      "concesionaria": "SERVIDEN Y CIA. LTDA.",
+      "direccion": "Km 2,5, Ruta 9 Sur, Huerto familiar Nº108",
+      "telefono": "612410475",
+      "horario": "9:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "14400",
+        "Camiones y Buses": "21700",
+        "Taxis": "14550"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-126",
+      "region": "METROPOLITANA",
+      "comuna": "QUILICURA",
+      "concesionaria": "APPLUS CHILE S.A.",
+      "direccion": "Galvarino Nº9430",
+      "telefono": "226596233",
+      "horario": "07:45 a 16:45",
+      "tarifas": {
+        "Autos, camionetas": "----",
+        "Camiones y Buses": "22000",
+        "Taxis": "14800"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-127",
+      "region": "METROPOLITANA",
+      "comuna": "LA PINTANA",
+      "concesionaria": "APPLUS CHILE S.A.",
+      "direccion": "Avda. Gabriela Nº02891",
+      "telefono": "225800785",
+      "horario": "08:00 a 16:00",
+      "tarifas": {
+        "Autos, camionetas": "----",
+        "Camiones y Buses": "22000",
+        "Taxis": "14800"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-128",
+      "region": "METROPOLITANA",
+      "comuna": "QUINTA NORMAL",
+      "concesionaria": "APPLUS CHILE S.A.",
+      "direccion": "Avda. Carrascal Nº5720",
+      "telefono": "225828224",
+      "horario": "08:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "14350",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-129",
+      "region": "METROPOLITANA",
+      "comuna": "SAN JOAQUIN",
+      "concesionaria": "APPLUS CHILE S.A.",
+      "direccion": "Avda. Departamental Nº390",
+      "telefono": "225828218",
+      "horario": "07:45 a 16:45",
+      "tarifas": {
+        "Autos, camionetas": "14350",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-130",
+      "region": "METROPOLITANA",
+      "comuna": "SAN RAMÓN",
+      "concesionaria": "APPLUS CHILE S.A.",
+      "direccion": "Avda. Américo Vespucio Nº1460",
+      "telefono": "225828215",
+      "horario": "07:45 a 16:45",
+      "tarifas": {
+        "Autos, camionetas": "14350",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-131",
+      "region": "METROPOLITANA",
+      "comuna": "QUILICURA",
+      "concesionaria": "TÜV RHEINLAND ANDINO S.A.",
+      "direccion": "Cañaveral Nº500, Parque Industrial Buenaventura",
+      "telefono": "223524226",
+      "horario": "07:30 a 16:30",
+      "tarifas": {
+        "Autos, camionetas": "14400",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-132",
+      "region": "METROPOLITANA",
+      "comuna": "LA PINTANA",
+      "concesionaria": "TÜV RHEINLAND ANDINO S.A.",
+      "direccion": "Avda. Gabriela Nº03470",
+      "telefono": "223524226",
+      "horario": "08:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "14400",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-133",
+      "region": "METROPOLITANA",
+      "comuna": "SAN JOAQUÍN",
+      "concesionaria": "TÜV RHEINLAND ANDINO S.A.",
+      "direccion": "Avda. Presidente Salvador Allende Nº143",
+      "telefono": "223524226",
+      "horario": "08:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "14400",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-134",
+      "region": "METROPOLITANA",
+      "comuna": "HUECHURABA",
+      "concesionaria": "TÜV RHEINLAND ANDINO S.A.",
+      "direccion": "Avda. Santa Clara Nº523",
+      "telefono": "223524226",
+      "horario": "07:30 a 16:30",
+      "tarifas": {
+        "Autos, camionetas": "14400",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-135",
+      "region": "METROPOLITANA",
+      "comuna": "LA FLORIDA",
+      "concesionaria": "TÜV RHEINLAND ANDINO S.A.",
+      "direccion": "Avda. Vicuña Mackenna Nº7955",
+      "telefono": "223524226",
+      "horario": "08:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "14400",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-136",
+      "region": "METROPOLITANA",
+      "comuna": "RECOLETA",
+      "concesionaria": "TÜV RHEINLAND ANDINO S.A.",
+      "direccion": "Avda. Einstein Nº1010-1026",
+      "telefono": "223524226",
+      "horario": "08:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "14400",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-137",
+      "region": "METROPOLITANA",
+      "comuna": "PUDAHUEL",
+      "concesionaria": "TÜV RHEINLAND ANDINO S.A.",
+      "direccion": "Avda. Américo Vespucio Nº1393",
+      "telefono": "223524226",
+      "horario": "08:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "14400",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-138",
+      "region": "METROPOLITANA",
+      "comuna": "QUILICURA",
+      "concesionaria": "REVISIONES TÉCNICAS SAN DÁMASO S.A.",
+      "direccion": "Presidente Eduardo Frei Montalva Nº9500",
+      "telefono": "228821645",
+      "horario": "08:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "13250",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-139",
+      "region": "METROPOLITANA",
+      "comuna": "PUENTE ALTO",
+      "concesionaria": "REVISIONES TÉCNICAS SAN DÁMASO S.A.",
+      "direccion": "Av. Eyzaguirre N°3649",
+      "telefono": "228821832",
+      "horario": "08:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "13250",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-140",
+      "region": "METROPOLITANA",
+      "comuna": "PUENTE ALTO",
+      "concesionaria": "REVISIONES TÉCNICAS SAN DÁMASO S.A.",
+      "direccion": "Avda. Sta. Rosa Nº659-685, Lotes L1 y L2 Las Azaleas Sector 3",
+      "telefono": "228821824",
+      "horario": "7:30 a 20:00 (l-j) y 7:30 a 19:00 (v)",
+      "tarifas": {
+        "Autos, camionetas": "13250",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-141",
+      "region": "METROPOLITANA",
+      "comuna": "COLINA",
+      "concesionaria": "REVISIONES TÉCNICAS SAN DÁMASO S.A.",
+      "direccion": "Camino a Coquimbo s/N°, Chacra El Carmen, Parcela Nº2, Lote Nº13",
+      "telefono": "228821820",
+      "horario": "08:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "13150",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-142",
+      "region": "METROPOLITANA",
+      "comuna": "HUECHURABA",
+      "concesionaria": "REVISIONES TÉCNICAS SAN DÁMASO S.A.",
+      "direccion": "Avda. Américo Vespucio Nº191-199",
+      "telefono": "228821826",
+      "horario": "7:30 a 20:00 (l-j) y 7:30 a 19:00 (v)",
+      "tarifas": {
+        "Autos, camionetas": "13150",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-143",
+      "region": "METROPOLITANA",
+      "comuna": "LA FLORIDA",
+      "concesionaria": "REVISIONES TÉCNICAS SAN DÁMASO S.A.",
+      "direccion": "Avda. Tobalaba Nº7609, Lote 3",
+      "telefono": "228821829",
+      "horario": "7:15 a 20:00 (l-j) y 7:15 a 19:00 (v)",
+      "tarifas": {
+        "Autos, camionetas": "13150",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-144",
+      "region": "METROPOLITANA",
+      "comuna": "MAIPU",
+      "concesionaria": "REVISIONES TÉCNICAS SAN DÁMASO S.A.",
+      "direccion": "Camino a Melipilla 17600, Parcela 5, Fundo Santa Ana de Chena",
+      "telefono": "228821830",
+      "horario": "7:00 a 20:00 (l-j) y 7:00 a 19:00 (v)",
+      "tarifas": {
+        "Autos, camionetas": "13150",
+        "Camiones y Buses": "---",
+        "Taxis": "---"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-145",
+      "region": "METROPOLITANA",
+      "comuna": "CERRILLOS",
+      "concesionaria": "REVISIONES TÉCNICAS UVT S.A.",
+      "direccion": "Caletera General Velásquez Nº7319",
+      "telefono": "942420568",
+      "horario": "07:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "----",
+        "Camiones y Buses": "24300",
+        "Taxis": "16400"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-146",
+      "region": "METROPOLITANA",
+      "comuna": "PEÑALOLEN",
+      "concesionaria": "REVISIONES TÉCNICAS UVT S.A.",
+      "direccion": "Avda. Las Torres Nº6900",
+      "telefono": "942420567",
+      "horario": "08:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "----",
+        "Camiones y Buses": "24300",
+        "Taxis": "16400"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-147",
+      "region": "METROPOLITANA",
+      "comuna": "LA REINA",
+      "concesionaria": "REVISIONES TÉCNICAS UVT S.A.",
+      "direccion": "Alcalde Fernando Castillo Velasco N° 8712",
+      "telefono": "222731569",
+      "horario": "08:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "16350",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-148",
+      "region": "METROPOLITANA",
+      "comuna": "LA FLORIDA",
+      "concesionaria": "REVISIONES TÉCNICAS UVT S.A.",
+      "direccion": "Avda. La Florida Nº11573",
+      "telefono": "966777259",
+      "horario": "08:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "16350",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-149",
+      "region": "METROPOLITANA",
+      "comuna": "MAIPU",
+      "concesionaria": "REVISIONES TÉCNICAS UVT S.A.",
+      "direccion": "Caletera Américo Vespucio Nº2562",
+      "telefono": "942420571",
+      "horario": "08:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "16350",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-150",
+      "region": "METROPOLITANA",
+      "comuna": "QUILICURA",
+      "concesionaria": "CHILENA DE REVISIONES TÉCNICAS LTDA.",
+      "direccion": "Senador Jaime Guzman Errázuriz Nº96",
+      "telefono": "223070825",
+      "horario": "07:00 a 21:00",
+      "tarifas": {
+        "Autos, camionetas": "20350",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-151",
+      "region": "METROPOLITANA",
+      "comuna": "PEÑALOLEN",
+      "concesionaria": "CHILENA DE REVISIONES TÉCNICAS LTDA.",
+      "direccion": "Avda. Américo Vespucio Nº4556",
+      "telefono": "223070833",
+      "horario": "08:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "20350",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-152",
+      "region": "METROPOLITANA",
+      "comuna": "LA PINTANA",
+      "concesionaria": "CHILENA DE REVISIONES TÉCNICAS LTDA.",
+      "direccion": "Lo Blanco Nº1789",
+      "telefono": "223070813",
+      "horario": "07:00 a 21:00",
+      "tarifas": {
+        "Autos, camionetas": "20350",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-153",
+      "region": "METROPOLITANA",
+      "comuna": "PEÑALOLEN",
+      "concesionaria": "SGS CHILE LTDA.",
+      "direccion": "Manuel Carvallo Nº1144",
+      "telefono": "224115000",
+      "horario": "08:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "21250",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-154",
+      "region": "METROPOLITANA",
+      "comuna": "MACUL",
+      "concesionaria": "SGS CHILE LTDA.",
+      "direccion": "Avda. Marathon N°3401",
+      "telefono": "224115182",
+      "horario": "08:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "21250",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-155",
+      "region": "METROPOLITANA",
+      "comuna": "ÑUÑOA",
+      "concesionaria": "SGS CHILE LTDA.",
+      "direccion": "Williams Rebolledo 1800",
+      "telefono": "224115142",
+      "horario": "09:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "21250",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-156",
+      "region": "METROPOLITANA",
+      "comuna": "ÑUÑOA",
+      "concesionaria": "SGS CHILE LTDA.",
+      "direccion": "Doctor Guillermo Mann 1251",
+      "telefono": "224115152",
+      "horario": "07:00 a 16:00",
+      "tarifas": {
+        "Autos, camionetas": "21250",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-157",
+      "region": "METROPOLITANA",
+      "comuna": "CERRILLOS",
+      "concesionaria": "SGS CHILE LTDA.",
+      "direccion": "Vista Alegre N°2253",
+      "telefono": "224115161",
+      "horario": "08:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "21250",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-158",
+      "region": "METROPOLITANA",
+      "comuna": "SAN BERNARDO",
+      "concesionaria": "REVISIONES TÉCNICAS MIVAL ARICA SPA",
+      "direccion": "Camino Los Pinos N°3105",
+      "telefono": "225471004",
+      "horario": "08:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "----",
+        "Camiones y Buses": "20050",
+        "Taxis": "13400"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-159",
+      "region": "METROPOLITANA",
+      "comuna": "RENCA",
+      "concesionaria": "REVISIONES TÉCNICAS MIVAL ARICA SPA",
+      "direccion": "Montevideo N°2168",
+      "telefono": "226036868",
+      "horario": "08:30 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "----",
+        "Camiones y Buses": "20050",
+        "Taxis": "13400"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-160",
+      "region": "METROPOLITANA",
+      "comuna": "MELIPILLA",
+      "concesionaria": "SYSTECH CHILE LTDA.",
+      "direccion": "Avda. Vicuña Mackenna N° 3276 (ex 3850)",
+      "telefono": "232469262",
+      "horario": "09:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "12400",
+        "Camiones y Buses": "18500",
+        "Taxis": "12400"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-161",
+      "region": "METROPOLITANA",
+      "comuna": "LAMPA",
+      "concesionaria": "SYSTECH CHILE LTDA.",
+      "direccion": "El Otoño N°501",
+      "telefono": "232453090",
+      "horario": "09:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "12400",
+        "Camiones y Buses": "18500",
+        "Taxis": "12400"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-162",
+      "region": "METROPOLITANA",
+      "comuna": "LA REINA",
+      "concesionaria": "DEKRA REVISIÓN TÉCNICA SPA",
+      "direccion": "Jorge Alessandri 255 con Los Hilanderos 8500",
+      "telefono": "225778002",
+      "horario": "08:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "18450",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-163",
+      "region": "METROPOLITANA",
+      "comuna": "INDEPENDENCIA",
+      "concesionaria": "DEKRA REVISIÓN TÉCNICA SPA",
+      "direccion": "Catorce de La Fama 2850",
+      "telefono": "225778002",
+      "horario": "08:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "18450",
+        "Camiones y Buses": "----",
+        "Taxis": "----"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-164",
+      "region": "METROPOLITANA",
+      "comuna": "RENCA",
+      "concesionaria": "DEKRA REVISIÓN TÉCNICA SPA",
+      "direccion": "Carlota GuzmanN°1100",
+      "telefono": "225778002",
+      "horario": "08:00 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "----",
+        "Camiones y Buses": "27600",
+        "Taxis": "18450"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-165",
+      "region": "METROPOLITANA",
+      "comuna": "PUDAHUEL",
+      "concesionaria": "DEKRA REVISIÓN TÉCNICA SPA",
+      "direccion": "Avda. Américo Vespucio N° 1240, 1242 y 1244 / Los Alerces N° 10020",
+      "telefono": "225778002",
+      "horario": "08:00 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "----",
+        "Camiones y Buses": "25500",
+        "Taxis": "17000"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-166",
+      "region": "METROPOLITANA",
+      "comuna": "SAN BERNARDO",
+      "concesionaria": "DEKRA REVISIÓN TÉCNICA SPA",
+      "direccion": "Santa Margarita N°1775",
+      "telefono": "225778002",
+      "horario": "08:00 a 17:30",
+      "tarifas": {
+        "Autos, camionetas": "----",
+        "Camiones y Buses": "25500",
+        "Taxis": "17000"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-167",
+      "region": "METROPOLITANA",
+      "comuna": "RENCA",
+      "concesionaria": "ALGORITMOS Y MEDICIONES AMBIENTALES",
+      "direccion": "Jose Miguel Infante N°8734",
+      "telefono": "225651158",
+      "horario": "09:00 a 17:00",
+      "tarifas": {
+        "Autos, camionetas": "----",
+        "Camiones y Buses": "34000",
+        "Taxis": "22650"
+      }
+    },
+    {
+      "id": "prt-ENERO 2026-168",
+      "region": "METROPOLITANA",
+      "comuna": "PAINE",
+      "concesionaria": "ALGORITMOS Y MEDICIONES AMBIENTALES",
+      "direccion": "Las Acacias, Huerto N°90, Manzana 960, Colonia Kennedy S/N",
+      "telefono": "225651158",
+      "horario": "09:00 a 18:00",
+      "tarifas": {
+        "Autos, camionetas": "22650",
+        "Camiones y Buses": "34000",
+        "Taxis": "22650"
+      }
+    }
+  ]
+}
