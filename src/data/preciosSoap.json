@@ -1,0 +1,104 @@
+{
+  "fuente": "CMF Chile - Precios referenciales informados en sitios web de las compañías (canal Internet), vigentes 11/02/2026",
+  "actualizado": "2026-02-11",
+  "precios": [
+    {
+      "aseguradora": "Bomberos de Chile",
+      "auto": 7990,
+      "moto": 52000,
+      "camioneta": 9500,
+      "pesados": 21000,
+      "url": "https://www.soapbomberos.cl",
+      "destacada": true,
+      "tooltipAuto": "Este valor contempla el precio base de $6.990 más una donación sugerida de $1.000 para la institución."
+    },
+    {
+      "aseguradora": "Mutual de Seguros de Chile",
+      "auto": 7900,
+      "moto": 57000,
+      "camioneta": 10000,
+      "pesados": 22000,
+      "url": "https://core.mutualdeseguros.cl/soap_ms/"
+    },
+    {
+      "aseguradora": "Consorcio",
+      "auto": 8490,
+      "moto": 68990,
+      "camioneta": 12490,
+      "pesados": 36990,
+      "url": "https://sitio.consorcio.cl/soap"
+    },
+    {
+      "aseguradora": "Aseguradora Porvenir S.A.",
+      "auto": 8500,
+      "moto": 61600,
+      "camioneta": 12500,
+      "pesados": 35000,
+      "url": "https://www.aspor.cl/asporweb/seguros/personas/vehiculos/soap.jsf"
+    },
+    {
+      "aseguradora": "Zurich Santander Seguros Generales S.A.",
+      "auto": 8790,
+      "moto": 65490,
+      "camioneta": 13890,
+      "pesados": 37190,
+      "url": "https://www.zurichsantander.cl/seguro-obligatorio-de-accidentes-personales-soap/"
+    },
+    {
+      "aseguradora": "Zurich Chile Seguros Generales S.A.",
+      "auto": 8990,
+      "moto": 79990,
+      "camioneta": 12990,
+      "pesados": 35990,
+      "url": "https://www.zurich.cl/es-cl/seguros-personas/soap"
+    },
+    {
+      "aseguradora": "HDI Seguros S.A.",
+      "auto": 9280,
+      "moto": 65480,
+      "camioneta": 13650,
+      "pesados": 34400,
+      "url": "https://www.hdi.cl/soap/"
+    },
+    {
+      "aseguradora": "Zenit Seguros Generales S.A.",
+      "auto": 9580,
+      "moto": 66000,
+      "camioneta": 12220,
+      "pesados": 36900,
+      "url": "https://www.zenitseguros.cl/seguros/auto/seguro-soap/"
+    },
+    {
+      "aseguradora": "Southbridge Compañía de Seguros Generales S.A.",
+      "auto": 9580,
+      "moto": 68550,
+      "camioneta": 14430,
+      "pesados": 36430,
+      "url": "https://soap.sbseguros.cl/general/inicio"
+    },
+    {
+      "aseguradora": "Seguros Generales Suramericana (SURA)",
+      "auto": 9700,
+      "moto": 64990,
+      "camioneta": 12190,
+      "pesados": 33990,
+      "url": "https://seguros.sura.cl/movilidad/seguro-obligatorio-soap"
+    },
+    {
+      "aseguradora": "Bci Seguros S.A.",
+      "auto": 9730,
+      "moto": 66000,
+      "camioneta": 12300,
+      "pesados": 36900,
+      "url": "https://www.bciseguros.cl/nuestros_seguros/personas/soap/"
+    },
+    {
+      "aseguradora": "Mapfre Seguros Generales S.A.",
+      "auto": 12130,
+      "moto": 81200,
+      "camioneta": 12400,
+      "pesados": 29480,
+      "url": "https://www.mapfre.cl/seguros-cl/personas/seguros-de-auto/soap/"
+    }
+  ]
+}

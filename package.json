@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "parse-prt": "node scripts/parse-prt-excel.cjs"
+    "parse-prt": "node scripts/parse-prt-excel.cjs",
+    "parse-soap": "node scripts/parse-soap-cmf.cjs"
   },
   "dependencies": {
     "next": "^14.2.0",

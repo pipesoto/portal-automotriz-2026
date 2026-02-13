@@ -10,10 +10,10 @@ const CONSULTA_MULTAS_BASE =
   "https://consultamultas.srcei.cl/ConsultaMultas/consultaMultasExterna.do";
 
 const TIPOS_VEHICULO = [
-  { id: "auto", label: "Auto" },
-  { id: "moto", label: "Moto" },
+  { id: "auto", label: "Automóvil" },
+  { id: "moto", label: "Motocicletas" },
   { id: "camioneta", label: "Camioneta" },
-  { id: "pesados", label: "Pesados" },
+  { id: "pesados", label: "Minibús" },
 ] as const;
 
 function getHistory(): string[] {
@@ -224,7 +224,7 @@ export default function HeroDashboard({
                 Comparador SOAP 2026
               </h2>
               <p className="text-sm text-slate-400 mb-4">
-                Seleccione el tipo de vehículo para ver precios.
+                Seleccione el tipo de vehículo (Automóvil, Camioneta, Motocicletas o Minibús) para ver precios según la tabla CMF.
               </p>
               <label htmlFor="tipo-vehiculo" className="sr-only">
                 Tipo de vehículo
