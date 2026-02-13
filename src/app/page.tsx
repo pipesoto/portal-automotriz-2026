@@ -18,21 +18,30 @@ import AdPlaceholder from "@/components/AdPlaceholder";
 export default function HomePage() {
   const [tipoVehiculo, setTipoVehiculo] = useState("auto");
 
+  const handleTipoVehiculoChange = (value: string) => {
+    setTipoVehiculo(value);
+    setTimeout(
+      () =>
+        document
+          .getElementById("tabla-precios-soap")
+          ?.scrollIntoView({ behavior: "smooth" }),
+      0
+    );
+  };
+
   return (
     <div className="min-h-screen bg-midnight">
       <HeroDashboard
         tipoVehiculo={tipoVehiculo}
-        onTipoVehiculoChange={setTipoVehiculo}
+        onTipoVehiculoChange={handleTipoVehiculoChange}
       />
-
-      <WidgetsInfo />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <AdPlaceholder position="between" />
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-8 items-start">
-        <div className="min-w-0">
+        <div className="min-w-0" id="tabla-precios-soap">
           <TablaPreciosSOAP tipoVehiculo={tipoVehiculo} />
 
           <div className="my-6">
@@ -47,6 +56,8 @@ export default function HomePage() {
           <FuelWidget />
         </aside>
       </div>
+
+      <WidgetsInfo />
 
       <CalculadoraViajes />
 
