@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Comparador SOAP 2026 - Precios por Aseguradora | Portal Automotriz Chile",
+  title: "Comparador SOAP 2026 - Precios por Aseguradora",
   description:
     "Compare precios SOAP 2026: Consorcio, HDI, Sura, SoapBomberos, Falabella. Auto, moto, camioneta y pesados.",
 };

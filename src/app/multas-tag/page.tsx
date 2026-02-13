@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Multas y TAG Chile - Consulta por Patente | Portal Automotriz Chile",
+  title: "Multas y TAG Chile - Consulta por Patente",
   description:
     "Consulte multas de tránsito y estado TAG por patente. Formato chileno AA-BB-11. Enlaces a Registro Civil y TGR.",
 };

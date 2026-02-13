@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Revisión Técnica 2026 - Calendario por Patente | Portal Automotriz Chile",
+  title: "Revisión Técnica 2026 - Calendario por Patente",
   description:
     "Calendario de revisión técnica Chile 2026 según último dígito de la patente. Hoy te toca.",
 };

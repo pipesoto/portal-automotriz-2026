@@ -9,20 +9,23 @@ import JsonLdFaq from "@/components/JsonLdFaq";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "SOAP 2026 y Multas de Tránsito Chile - Consulta Gratis",
+  title: {
+    default: "Portal Automotriz - Compara Precios SOAP 2026 y Revisión Técnica",
+    template: "%s | Portal Automotriz",
+  },
   description:
     "Consulta multas de tránsito, compara precios SOAP 2026, revisión técnica y TAG. Portal oficial de utilidad para conductores en Chile. Registro Civil, MTT, TGR.",
   keywords:
     "SOAP 2026, multas tránsito Chile, revisión técnica, TAG, permiso circulación, Ley Jacinta, patente Chile",
   openGraph: {
-    title: "SOAP 2026 y Multas de Tránsito Chile - Consulta Gratis",
+    title: "Portal Automotriz - Compara Precios SOAP 2026 y Revisión Técnica",
     description:
       "Consulta multas, SOAP, revisión técnica y TAG. Herramienta oficial para conductores en Chile.",
     locale: "es_CL",
     type: "website",
   },
   robots: "index, follow",
-  alternates: { canonical: "https://portalautomotrizchile.cl" },
+  alternates: { canonical: "https://www.portal-automotriz.cl" },
 };
 
 export default function RootLayout({
