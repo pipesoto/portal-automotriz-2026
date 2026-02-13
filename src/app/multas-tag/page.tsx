@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Multas y TAG Chile - Consulta por Patente",
   description:
     "Consulte multas de tránsito y estado TAG por patente. Formato chileno AA-BB-11. Enlaces a Registro Civil y TGR.",
+  alternates: {
+    canonical: "https://www.portal-automotriz.cl/multas-tag",
+  },
 };
 
 export default function MultasTagPage() {

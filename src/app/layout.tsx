@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     title: "Portal Automotriz - Compara Precios SOAP 2026 y Revisión Técnica",
     description:
       "Consulta multas, SOAP, revisión técnica y TAG. Herramienta oficial para conductores en Chile.",
+    url: "https://www.portal-automotriz.cl",
     locale: "es_CL",
     type: "website",
   },

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Revisión Técnica 2026 - Calendario por Patente",
   description:
     "Calendario de revisión técnica Chile 2026 según último dígito de la patente. Hoy te toca.",
+  alternates: {
+    canonical: "https://www.portal-automotriz.cl/revision-tecnica",
+  },
 };
 
 export default function RevisionTecnicaPage() {

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Guías SOAP, Multas y Revisión Técnica",
   description:
     "Guías sobre SOAP, multas de tránsito, revisión técnica, Ley Jacinta y permiso de circulación en Chile.",
+  alternates: {
+    canonical: "https://www.portal-automotriz.cl/guias",
+  },
 };
 
 export default function GuiasPage() {
