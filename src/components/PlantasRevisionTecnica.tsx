@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { MapPin, Phone, Clock, ExternalLink, Search, Building2, DollarSign } from "lucide-react";
+import { MapPin, Phone, Clock, ExternalLink, Building2, DollarSign } from "lucide-react";
 import { REGIONES_PRT, PLANTAS_PRT, MTT_URL, type PlantaRevisionTecnica } from "@/data/plantasRevisionTecnica";
 import datosPRT from "@/data/plantasPRT.json";
 
@@ -38,7 +38,6 @@ const usaDatosOficiales = datosOficiales.plantas.length > 0;
 export default function PlantasRevisionTecnica() {
   const [region, setRegion] = useState(usaDatosOficiales ? "" : "rm");
   const [comuna, setComuna] = useState("");
-  const [busqueda, setBusqueda] = useState("");
 
   const comunasOpciones = useMemo(() => {
     if (usaDatosOficiales && region) {
@@ -53,32 +52,10 @@ export default function PlantasRevisionTecnica() {
       if (!region) return [];
       let list = datosOficiales.plantas.filter((p) => p.region === region);
       if (comuna) list = list.filter((p) => p.comuna === comuna);
-      if (busqueda.trim()) {
-        const q = busqueda.toLowerCase();
-        const nombreOConcesionaria = (p: (typeof datosOficiales.plantas)[0]) =>
-          ("concesionaria" in p ? p.concesionaria : (p as { nombre?: string }).nombre) || "";
-        list = list.filter(
-          (p) =>
-            p.comuna.toLowerCase().includes(q) ||
-            nombreOConcesionaria(p).toLowerCase().includes(q) ||
-            p.direccion.toLowerCase().includes(q)
-        );
-      }
       return list;
     }
-    let list = PLANTAS_PRT.filter((p) => p.regionId === region);
-    if (busqueda.trim()) {
-      const q = busqueda.toLowerCase();
-      list = list.filter(
-        (p) =>
-          p.comuna.toLowerCase().includes(q) ||
-          p.nombre.toLowerCase().includes(q) ||
-          p.direccion.toLowerCase().includes(q) ||
-          p.operador.toLowerCase().includes(q)
-      );
-    }
-    return list;
-  }, [usaDatosOficiales, region, comuna, busqueda]);
+    return PLANTAS_PRT.filter((p) => p.regionId === region);
+  }, [usaDatosOficiales, region, comuna]);
 
   return (
     <section
@@ -100,8 +77,8 @@ export default function PlantasRevisionTecnica() {
         </p>
 
         <div className="glass-card p-6 transition-shadow duration-300 hover:shadow-glass-hover mb-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            <div className={usaDatosOficiales ? "" : "sm:col-span-2"}>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className={usaDatosOficiales ? "min-w-[15rem] sm:min-w-[15rem]" : "sm:col-span-2"}>
               <label htmlFor="region-prt" className="block text-sm font-medium text-slate-300 mb-1">
                 Región
               </label>
@@ -112,7 +89,10 @@ export default function PlantasRevisionTecnica() {
                   setRegion(e.target.value);
                   setComuna("");
                 }}
-                className="w-full px-4 py-3 rounded-xl border border-white/20 bg-slate-800/80 text-white focus:ring-2 focus:ring-electric-blue outline-none transition"
+                className="w-full min-w-[15rem] px-4 py-3 pr-10 rounded-xl border border-white/20 bg-slate-800/80 text-white focus:ring-2 focus:ring-electric-blue outline-none transition appearance-none bg-[length:1.25rem] bg-[right_0.5rem_center] bg-no-repeat"
+                style={{
+                  backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2394a3b8'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E")`,
+                }}
               >
                 {usaDatosOficiales ? (
                   <>
@@ -135,7 +115,7 @@ export default function PlantasRevisionTecnica() {
               </select>
             </div>
             {usaDatosOficiales && comunasOpciones.length > 0 && (
-              <div>
+              <div className="min-w-[15rem] sm:min-w-[15rem]">
                 <label htmlFor="comuna-prt" className="block text-sm font-medium text-slate-300 mb-1">
                   Comuna
                 </label>
@@ -143,7 +123,10 @@ export default function PlantasRevisionTecnica() {
                   id="comuna-prt"
                   value={comuna}
                   onChange={(e) => setComuna(e.target.value)}
-                  className="w-full px-4 py-3 rounded-xl border border-white/20 bg-slate-800/80 text-white focus:ring-2 focus:ring-electric-blue outline-none transition"
+                  className="w-full min-w-[15rem] px-4 py-3 pr-10 rounded-xl border border-white/20 bg-slate-800/80 text-white focus:ring-2 focus:ring-electric-blue outline-none transition appearance-none bg-[length:1.25rem] bg-[right_0.5rem_center] bg-no-repeat"
+                  style={{
+                    backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2394a3b8'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E")`,
+                  }}
                 >
                   {comunasOpciones.map((c) => (
                     <option key={c.value} value={c.value} className="bg-slate-800 text-white">
@@ -153,22 +136,6 @@ export default function PlantasRevisionTecnica() {
                 </select>
               </div>
             )}
-            <div className={usaDatosOficiales ? "lg:col-span-2" : "sm:col-span-2"}>
-              <label htmlFor="busqueda-prt" className="block text-sm font-medium text-slate-300 mb-1">
-                Buscar (concesionaria, comuna, dirección)
-              </label>
-              <div className="relative">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500" aria-hidden />
-                <input
-                  id="busqueda-prt"
-                  type="text"
-                  value={busqueda}
-                  onChange={(e) => setBusqueda(e.target.value)}
-                  placeholder="Ej: Quilicura, Applus..."
-                  className="w-full pl-10 pr-4 py-3 rounded-xl border border-white/20 bg-slate-800/80 text-white placeholder-slate-500 focus:ring-2 focus:ring-electric-blue outline-none transition"
-                />
-              </div>
-            </div>
           </div>
         </div>
 
