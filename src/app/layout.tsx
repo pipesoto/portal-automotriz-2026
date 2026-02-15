@@ -10,17 +10,17 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
   title: {
-    default: "Portal Automotriz - Compara Precios SOAP 2026 y Revisión Técnica",
+    default: "Portal Automotriz Chile 2026: SOAP, Multas y Revisión Técnica",
     template: "%s | Portal Automotriz",
   },
   description:
-    "Consulta multas de tránsito, compara precios SOAP 2026, revisión técnica y TAG. Portal oficial de utilidad para conductores en Chile. Registro Civil, MTT, TGR.",
+    "Consulta de multas de tránsito, comparación de precios SOAP 2026 y calendario de revisión técnica en Chile. Todo en un solo lugar.",
   keywords:
     "SOAP 2026, multas tránsito Chile, revisión técnica, TAG, permiso circulación, Ley Jacinta, patente Chile",
   openGraph: {
-    title: "Portal Automotriz - Compara Precios SOAP 2026 y Revisión Técnica",
+    title: "Portal Automotriz Chile 2026: SOAP, Multas y Revisión Técnica",
     description:
-      "Consulta multas, SOAP, revisión técnica y TAG. Herramienta oficial para conductores en Chile.",
+      "Consulta de multas de tránsito, comparación de precios SOAP 2026 y calendario de revisión técnica en Chile. Todo en un solo lugar.",
     url: "https://www.portal-automotriz.cl",
     locale: "es_CL",
     type: "website",

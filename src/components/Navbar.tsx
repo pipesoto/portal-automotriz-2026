@@ -2,17 +2,27 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Menu, X, Car, Shield, FileCheck, BookOpen } from "lucide-react";
 
 const navLinks = [
-  { href: "/comparador-soap", label: "Comparador SOAP", icon: Shield },
-  { href: "/multas-tag", label: "Multas TAG", icon: Car },
-  { href: "/revision-tecnica", label: "Revisión Técnica", icon: FileCheck },
-  { href: "/guias", label: "Guías", icon: BookOpen },
+  { href: "/#multas", hash: "multas", label: "Multas TAG", icon: Car },
+  { href: "/#soap", hash: "soap", label: "Comparador SOAP", icon: Shield },
+  { href: "/#revision-tecnica", hash: "revision-tecnica", label: "Revisión Técnica", icon: FileCheck },
+  { href: "/#guias", hash: "guias", label: "Guías", icon: BookOpen },
 ];
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, hash: string) => {
+    if (pathname === "/") {
+      e.preventDefault();
+      document.getElementById(hash)?.scrollIntoView({ behavior: "smooth" });
+    }
+    setOpen(false);
+  };
 
   return (
     <header className="sticky top-0 z-30 glass-nav border-b border-white/10">
@@ -43,16 +53,16 @@ export default function Navbar() {
               open ? "block" : "hidden"
             }`}
           >
-            {navLinks.map(({ href, label, icon: Icon }) => (
-              <li key={href}>
-                <Link
+            {navLinks.map(({ href, hash, label, icon: Icon }) => (
+              <li key={hash}>
+                <a
                   href={href}
-                  onClick={() => setOpen(false)}
+                  onClick={(e) => handleNavClick(e, hash)}
                   className="flex items-center gap-2 px-4 py-3 md:py-2 md:px-3 text-slate-300 hover:text-electric-blue hover:bg-white/5 rounded-xl transition"
                 >
                   <Icon className="w-4 h-4" aria-hidden />
                   {label}
-                </Link>
+                </a>
               </li>
             ))}
           </ul>
