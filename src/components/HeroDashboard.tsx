@@ -107,7 +107,7 @@ export default function HeroDashboard({
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex flex-wrap items-center justify-center gap-3 mb-2">
           <h1 className="text-2xl md:text-3xl font-bold text-white text-center tracking-tight">
-            Portal Automotriz Chile 2026
+            SOAP, Multas y Revisión Técnica Chile 2026
           </h1>
           <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-emerald/20 text-emerald border border-emerald/40 shadow-sm">
             100% Gratuito
@@ -119,8 +119,7 @@ export default function HeroDashboard({
           </p>
         ) : (
           <p className="text-slate-400 text-center mb-8 max-w-2xl mx-auto">
-            Consulta multas, compara SOAP y revisión técnica. Todo en un solo
-            lugar. Sin costo.
+            Consulta multas de tránsito, compara precios SOAP y revisión técnica 2026. Todo en un solo lugar. Sin costo.
           </p>
         )}
 

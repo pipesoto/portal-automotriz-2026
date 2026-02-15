@@ -39,10 +39,10 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-midnight">
-      {/* Sección Multas: consulta por patente */}
+      {/* Sección Multas: consulta por patente — SEO para búsquedas "multas", "consulta multas Chile" */}
       <section id="multas" aria-labelledby="titulo-multas">
-        <h2 id="titulo-multas" className="sr-only">
-          Consulta de Multas de Tránsito por Patente
+        <h2 id="titulo-multas" className="text-center text-slate-400 text-sm font-medium mb-2 px-4">
+          Consulta de multas de tránsito en Chile por patente
         </h2>
         <HeroDashboard
           tipoVehiculo={tipoVehiculo}
@@ -54,8 +54,11 @@ export default function HomePage() {
         <AdPlaceholder position="between" />
       </div>
 
-      {/* Sección SOAP: comparador y tabla de precios */}
+      {/* Sección SOAP: comparador y tabla de precios — SEO: "SOAP", "precios SOAP", "comparar SOAP Chile" */}
       <section id="soap" aria-labelledby="titulo-tabla-precios">
+        <p className="text-center text-slate-400 text-sm font-medium mb-2 px-4 max-w-6xl mx-auto">
+          Compara precios SOAP 2026 en Chile por aseguradora. Auto, moto, camioneta y minibús.
+        </p>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-8 items-start">
           <div className="min-w-0" id="tabla-precios-soap">
             <TablaPreciosSOAP tipoVehiculo={tipoVehiculo} />
@@ -64,8 +67,11 @@ export default function HomePage() {
               <AdPlaceholder position="between" />
             </div>
 
-            {/* Sección Revisión Técnica: calendario y plantas */}
+            {/* Sección Revisión Técnica: calendario y plantas — SEO: "revisión técnica", "revisión técnica 2026 Chile" */}
             <section id="revision-tecnica" aria-labelledby="titulo-hoy-te-toca">
+              <p className="text-slate-400 text-sm font-medium mb-2">
+                Revisión técnica 2026 Chile: calendario por patente y plantas de revisión técnica por región.
+              </p>
               <HoyTeToca />
 
               <PlantasRevisionTecnica />

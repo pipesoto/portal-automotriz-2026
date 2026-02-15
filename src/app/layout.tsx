@@ -5,28 +5,58 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AdPlaceholder from "@/components/AdPlaceholder";
 import JsonLdFaq from "@/components/JsonLdFaq";
+import JsonLdWebSite from "@/components/JsonLdWebSite";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
+const SITE_URL = "https://www.portal-automotriz.cl";
+const TITLE = "Portal Automotriz Chile 2026: SOAP, Multas y Revisión Técnica";
+const DESCRIPTION =
+  "Consulta multas por patente, compara precios SOAP 2026 y revisión técnica Chile. Multas de tránsito, SOAP y calendario de revisión técnica en un solo lugar.";
+
 export const metadata: Metadata = {
   title: {
-    default: "Portal Automotriz Chile 2026: SOAP, Multas y Revisión Técnica",
+    default: TITLE,
     template: "%s | Portal Automotriz",
   },
-  description:
-    "Consulta de multas de tránsito, comparación de precios SOAP 2026 y calendario de revisión técnica en Chile. Todo en un solo lugar.",
-  keywords:
-    "SOAP 2026, multas tránsito Chile, revisión técnica, TAG, permiso circulación, Ley Jacinta, patente Chile",
+  description: DESCRIPTION,
+  keywords: [
+    "multas",
+    "consulta multas Chile",
+    "multas tránsito por patente",
+    "SOAP",
+    "SOAP 2026",
+    "precios SOAP Chile",
+    "comparar SOAP",
+    "revisión técnica",
+    "revisión técnica 2026",
+    "revisión técnica Chile",
+    "calendario revisión técnica",
+    "TAG Chile",
+    "permiso circulación 2026",
+    "Ley Jacinta",
+    "patente Chile",
+  ],
+  authors: [{ name: "Portal Automotriz Chile" }],
+  creator: "Portal Automotriz Chile",
   openGraph: {
-    title: "Portal Automotriz Chile 2026: SOAP, Multas y Revisión Técnica",
-    description:
-      "Consulta de multas de tránsito, comparación de precios SOAP 2026 y calendario de revisión técnica en Chile. Todo en un solo lugar.",
-    url: "https://www.portal-automotriz.cl",
+    title: TITLE,
+    description: DESCRIPTION,
+    url: SITE_URL,
+    siteName: "Portal Automotriz Chile 2026",
     locale: "es_CL",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: DESCRIPTION,
+  },
   robots: "index, follow",
-  alternates: { canonical: "https://www.portal-automotriz.cl" },
+  alternates: { canonical: SITE_URL },
+  verification: {
+    google: "5cf7c1cd72c8efa9",
+  },
 };
 
 export default function RootLayout({
@@ -43,6 +73,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <JsonLdFaq />
+        <JsonLdWebSite />
       </head>
       <body
         className={`${inter.variable} font-sans min-h-screen flex flex-col`}

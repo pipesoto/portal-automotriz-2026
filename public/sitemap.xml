@@ -1,42 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Página de inicio -->
+  <!-- One Page: una sola URL para indexar. Todo el contenido está en la página de inicio con secciones #multas, #soap, #revision-tecnica, #guias -->
   <url>
     <loc>https://www.portal-automotriz.cl/</loc>
-    <lastmod>2026-02-11</lastmod>
+    <lastmod>2026-02-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-  </url>
-  
-  <!-- Comparador SOAP -->
-  <url>
-    <loc>https://www.portal-automotriz.cl/comparador-soap</loc>
-    <lastmod>2026-02-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <!-- Multas TAG -->
-  <url>
-    <loc>https://www.portal-automotriz.cl/multas-tag</loc>
-    <lastmod>2026-02-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <!-- Revisión Técnica -->
-  <url>
-    <loc>https://www.portal-automotriz.cl/revision-tecnica</loc>
-    <lastmod>2026-02-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <!-- Guías -->
-  <url>
-    <loc>https://www.portal-automotriz.cl/guias</loc>
-    <lastmod>2026-02-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 </urlset>
